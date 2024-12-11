@@ -1,0 +1,117 @@
+/* styles.css */
+
+/* Reset default margin dan padding */
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Gaya untuk header */
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.navdes a:hover {
+    background-color: #170fef; /* Ubah warna latar belakang saat hover */
+    color: white; /* Pastikan warna teks tetap putih */
+    border-radius: 5px; /* Memberikan border radius pada link */
+    transform: scale(1.1); /* Membesarkan sedikit elemen saat hover */
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Gaya untuk main */
+main {
+    padding: 40px;
+}
+
+/* Gaya untuk section */
+section {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Gaya untuk footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.program {
+        text-align: center;
+        display: flex; /* Menggunakan Flexbox untuk menata gambar secara berjejer */
+        justify-content: center; /* Mengatur gambar agar berada di tengah horizontal */
+        gap: 20px; /* Memberikan jarak antara gambar */
+    
+
+}
+.h {
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+}
